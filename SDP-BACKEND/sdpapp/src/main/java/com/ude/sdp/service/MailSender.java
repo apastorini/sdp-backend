@@ -70,8 +70,8 @@ public class MailSender {
 			 */
 			Properties props = new Properties();
 			props.setProperty("mail.transport.protocol", "aws");
-			props.setProperty("mail.aws.user", "AKIAISL3JIDS24E6BDXQ");
-			props.setProperty("mail.aws.password", "i66UC8d+yG93y1F9jt4ncYxaROZYenNfJMSadeg3");
+			props.setProperty("mail.aws.user", "");
+			props.setProperty("mail.aws.password", "");
 
 			Session session = Session.getInstance(props);
 
